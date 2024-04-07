@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(240, 227, 195);
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: rgb(185, 215, 242);
+    gap: 30px;
+    row-gap: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+
+}
+
+.card {
+    background-color:white ;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 20em;
+    width: 13em; 
+    position:relative;
+    display: flex;
+       
+}
+
+
+.card .background >p {
+    position:absolute;
+    top: 40%;  
+    left: 40%;
+    font-size: 4em;
+    
+}
+
+.box {
+    display: flex;
+    background: grey;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .fixed, .bottom {
+    background-color: rgb(94, 98, 97);
+    height: 100px;
+    width: 100px;
+    position:fixed;
+
+}
+.box.left{
+    bottom:0px;
+    left:0px;
+
+}
+
+.box.right{
+    right:0px;
+    bottom:0px;
+
+}
+
+.card.a{
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    gap: 5%;
+}
+
+.card.a .a.box{
+    background-color: purple;
+}
+
+.card.a .box{
+    margin: 2%;
+}
+
+.card.b{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 5%;
+
+}
+
+.card.b .box{
+    margin-bottom: 1em;
+}
+.card.b .b.box{
+    position: relative;
+    left: 3%;
+}
+.card.b .c.box{
+    background: purple;
+}
+.card.c {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+}
+.card.c > .box {
+    position: relative;
+    left: -10%; 
+    top: 2%;
+}
+.card.c > .a.box{
+    background-color: purple;
+}
+.card.c > .b.box{
+    background-color: red;
+}
+.card.d {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    align-items: flex-start;
+}
+.card.d > .box {
+    transform: rotate(90deg);   
+    
+}
+.card.d > .a.box {
+    background: purple;   
+}
+
+.card.e {
+    position: relative;
+}
+
+.card.e > .a.box {
+    background: purple;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px; 
+}
+
+.card.e > .b.box {    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top-right-radius: 10px; 
+}
+
+.card.e > .c.box {    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom-right-radius: 10px; 
+}
+
+
+
+

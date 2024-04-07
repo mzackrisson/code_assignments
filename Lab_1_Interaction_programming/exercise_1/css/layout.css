@@ -1,0 +1,13 @@
+
+body{
+    display: flex;
+    justify-content: center;   
+    min-height: 100vh;
+}
+.container{
+  min-width: 570px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  text-align: left; /* Left-align the content within the container */
+}
