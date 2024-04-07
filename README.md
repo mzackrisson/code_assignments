@@ -1,2 +1,2 @@
 # code_assignments
-Some coding samples
+Some code I have written
